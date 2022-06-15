@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 //Configuración de los parametros de la base de datos
-//uri= 'mongodb+srv://christiansilv12:Chris123@cluster0.negzq.mongodb.net/Empleados?retryWrites=true&w=majority';
-uri= 'http://18.220.138.81:3100/api/users/';
+uri= 'mongodb+srv://christiansilv12:Chris123@cluster0.negzq.mongodb.net/Empleados?retryWrites=true&w=majority';
+//uri= 'http://18.220.138.81:3100/api/users/';
 dbparams ={
     //useCreateIndex: true,
     useNewUrlParser:true,
